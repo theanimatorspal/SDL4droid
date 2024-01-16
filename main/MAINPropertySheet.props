@@ -9,7 +9,7 @@
     </ClCompile>
     <Link>
       <LibraryDependencies>m;dl;GLESv1_CM;GLESv2;OpenSLES;log;android;
-SDL2;%(LibraryDependencies)</LibraryDependencies>
+SDL2;vulkan;%(LibraryDependencies)</LibraryDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
